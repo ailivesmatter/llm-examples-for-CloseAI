@@ -3,7 +3,7 @@ import streamlit as st
 
 with st.sidebar:
     openai_api_key = st.text_input("CloseAI API Key", key="chatbot_api_key", type="password")
-    model_options = ["gpt-3.5-turbo", "gpt-4", "gpt-4-turbo", "gpt-4o", "gpt-4-vision-preview"]
+    model_options = ["gpt-4-turbo","gpt-3.5-turbo", "gpt-4", "gpt-4o", "gpt-4-vision-preview"]
     selected_model = st.sidebar.selectbox("Select Model", model_options)    
     "[Get an CloseAI API key](https://referer.shadowai.xyz/r/1003298)"
     "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
