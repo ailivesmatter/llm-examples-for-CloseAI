@@ -5,7 +5,7 @@ with st.sidebar:
     openai_api_key = st.text_input("CloseAI API Key", key="chatbot_api_key", type="password")
     "[Get an CloseAI API key](https://doc.closeai-asia.com/tutorial/api/openai.html)"
     "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
-    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
+    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/sturdy-fishstick-ggr5jvxgr792vv?editor=web)"
 
 st.title("💬 CloseAI DemoChat")
 st.caption("🚀 A Streamlit chatbot powered by OpenAI")
