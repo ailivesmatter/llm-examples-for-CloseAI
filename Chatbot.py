@@ -21,7 +21,7 @@ with st.sidebar:
     "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/sturdy-fishstick-ggr5jvxgr792vv?editor=web)"
 
-st.title("💬 CloseAI DemoChat")
+st.title("💬 Close AI DemoChat")
 st.caption("🚀 A Streamlit chatbot powered by OpenAI")
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
